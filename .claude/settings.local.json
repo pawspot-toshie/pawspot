@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(npm install:*)",
+      "Bash(gh auth:*)",
+      "Bash(git --version)",
+      "Bash(/usr/bin/git --version)",
+      "Bash(echo \"exit: $?\")"
+    ]
+  }
+}
